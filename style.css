@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    height: 100vh;
+    background-color:#171717;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    width: 90%;
+    
+}
+.logo{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    margin-left: 7rem;
+    padding: 10px;
+    
+}
+header a{
+    padding: 1.2rem;
+    margin-right: 3rem;
+    color: rgba(255, 255, 255, 0.421);
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    transition:all 0.3s;
+}
+
+header a:hover{
+    color: white;
+}
+
+.main_section{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem 18rem;
+    
+    
+}
+.main_section img{
+    width: 35%;
+    border-radius: 50%;
+    transition: all 1s ease;
+    
+}
+.main_section img:hover{
+    transform:rotateY(180deg);
+}
+.main_section div {
+    
+    width: 20vw;
+}
+.main_section span {
+    color: rgb(42, 192, 192);
+    text-shadow: 0px 0px 20px ;
+}
+.main_section h3 {
+    font-size: 3vw;
+}
+.main_section p {
+    color: gray;
+    
+
+}
+button{
+    margin-top: 1.2rem;
+    width: 9vw;
+    height: 2.2vw;
+    color: white;
+    transition: 0.3s all ;
+
+}
+.cv{
+    background-color: rgb(58, 183, 58);
+    border: transparent;
+}
+.more{
+    background-color: transparent;
+    border: 1px solid white;
+}
+button:hover{
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 9px 1px white;
+}
+.about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+
+}
+.about h4 {
+    font-size:2vw;
+    padding: 2rem ;
+}
+.about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+.cordonne {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin: 3vw;
+    text-align: center;
+    
+}
+.cordonne h4,p {
+    
+    margin-top: 6px;
+}
+#dott{
+    background-color: rgba(48, 47, 47, 0.671);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+}
+#dott_{
+    width: 10px;
+    height: 10px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(47, 181, 47);
+    border-radius: 50%;
+}
+.cordonne h4 {
+    font-size: 1.2vw;
+    margin-top: 19px;
+    font-weight: lighter;
+}
+.cordonne p {
+    font-size: 1vw;
+}
+.wid{
+    color: rgba(255, 255, 255, 0.284);
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 20px;
+    margin: auto;
+    
+    
+    
+    
+    
+}
+
+
+
+#do{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 2vw 1vw;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+.wid article {
+    background-color: #212121;
+    width: 13vw;
+    height: 10rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+.wid h5 {
+    padding-top: 40px;
+    font-size: 2vw;
+    transition: all 0.5s;
+    
+}
+.wid article:hover{
+    color: white;
+
+}
+.wid article::after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 4px; 
+    background-color: rgb(47, 181, 47);
+    top: 30px;
+    transition: 0.2s;
+    
+}
+.wid article:hover::after{
+    width: 100%;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    
+}
+.skills h4{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 2vw 1vw;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+#skills{
+    background-color: #212121;
+    width: 60%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.236);
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+#skills article{
+    width: 60%;
+    
+    
+}
+#skills article h3 {
+    color: rgba(255, 255, 255, 0.284);
+    font-size: 3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+#skills article p {
+    color: rgba(44, 155, 44, 0.919);
+
+    font-size:1.2vw ;
+}
+.get{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 2vw 1vw;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin: auto;
+    width: 35vw;
+    
+    
+
+}
+form input{
+    width: 18.8rem;
+    margin: 15px;
+    height: 29px;
+    border: transparent;
+    background-color:#171717;
+    border-bottom: 1px solid gray;
+    padding: 3px;
+    color: white;
+    transition: all 0.2s;
+    font-size: 14px ;
+
+}
+form input:focus{
+    
+    transform: scale(1.05);
+    outline: none; 
+    border-bottom: 2px solid rgb(46, 197, 46);
+}
+#message{
+    width: 40rem;
+    height: 7rem;
+    border: 1px solid gray;
+}
+#message:focus{
+    border: 2px solid rgb(46, 197, 46);
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffdfd;
+    text-align: center;
+    width: 10vw;
+    height: 2.5rem;
+    background-color:rgb(47, 181, 47) ;
+    border: none;
+    font-size: 17px;
+    
+}
+#submit:hover{
+    background-color: transparent;
+}
+footer p {
+    color: gray;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 8rem;
+    
+}
+@media(max-width: 780px){
+    header a{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+        margin: auto;
+        font-size: 10vw;
+        text-align: center;
+        
+    }
+    .main_section img {
+        width: 40%;
+        margin-bottom: 3rem;
+        
+    }
+
+    .main_section{
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+
+    }
+    .main_section div{
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .main_section p{
+        text-align: center;
+        font-size: 2vw;
+    }
+    button{
+        width: 6rem;
+        height: 2rem;
+    
+    }   
+    button:hover{
+        letter-spacing: 1px;
+    }
+    .about{
+       
+        
+        
+    
+    }
+    .about h4 {
+        font-size:4vw;
+        padding: 2rem 0 0rem 0rem;
+        
+    }
+    .about p{
+        
+        font-size: 2vw;
+    }
+    .cordonne {
+        
+        
+        flex-direction: column;
+        
+        gap: 3rem;
+        margin: 3vw;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .cordonne h4,p {
+        
+        margin-top: 6px;
+    }
+    
+    
+    .cordonne h4 {
+        font-size: 2vw;
+        margin-top: 19px;
+    }
+    .cordonne p {
+        font-size: 13px;
+    }
+    #do{
+        font-size: 4vw;
+        margin-top: 5vw;
+    }
+    .wid{
+        gap: 3rem;
+        margin: auto;
+        
+    }
+    .wid article {
+        width: 15vw;
+        height: 7rem;
+        
+    }
+    .wid article svg {
+        width: 30px;
+    }
+    .wid article::after {
+         top: 30px;
+         
+    }
+    
+    .skills h4{
+    
+        font-size: 4vw;
+        
+    }
+    #skills  {
+        width: 90vw;
+        
+    }
+    #skills article p{
+        font-size: 12px;
+    }
+    #skills article h3{
+        font-size: 18px;
+    }
+    form input{
+        width: 14rem;
+    }
+    #message{
+        width: 14rem;
+        height: 4rem;
+    } 
+#submit{
+     width: 19vw;
+    }
+    .get{
+        font-size: 4vw;
+    }
+}
+    
